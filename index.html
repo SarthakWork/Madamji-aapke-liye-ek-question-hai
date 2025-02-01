@@ -103,14 +103,14 @@
       // When a YES is clicked, show a sweet message
       yesButton.addEventListener('click', function() {
   // 1. Show them the sweet message:
-  alert("Awww, thank you! You're my Valentine now! ❤");
+  alert("Awww, thank you! You're my Valentine now and I hope you enjoy what happens next! ❤");
 
   // 2. Send an email notification via EmailJS
   emailjs.send(
     "service_7k6ppsw",    // e.g. "service_xxx"
     "template_vpvsxw5",   // e.g. "template_yyy"
     {
-      to_name: "Your Name",         // optional: references in the email template
+      to_name: "Sarthak",         // optional: references in the email template
       message: "She clicked YES!!!" // optional: references in the email template
       // ...any other variables you defined in the EmailJS template
     }
